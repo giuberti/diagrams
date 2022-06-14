@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T19:07:18.611Z" agent="5.0 (Windows)" etag="nRyJADZ7lvIl-Q2G0R_x" version="20.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-14T20:10:38.121Z" agent="5.0 (Windows)" etag="V5AQfheiWTnnIwfHWtOE" version="20.0.1" type="github" pages="2">
   <diagram name="Architecture" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="868" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -88,7 +88,7 @@
           <mxGeometry x="-35" y="480" width="340" height="190" as="geometry" />
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-4" value="VendorModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="35" y="190" width="200" height="98" as="geometry">
+          <mxGeometry x="35" y="220" width="200" height="98" as="geometry">
             <mxRectangle x="70" y="220" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -108,19 +108,24 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-10" value="NotesCaseProcessor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="415" y="170" width="400" height="330" as="geometry" />
+          <mxGeometry x="415" y="170" width="335" height="330" as="geometry" />
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-11" value="- notesCase: NotesCaseInformationModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p24NoxcCGoDu_xctr0ZB-10" vertex="1">
-          <mxGeometry y="26" width="400" height="26" as="geometry" />
+          <mxGeometry y="26" width="335" height="26" as="geometry" />
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="p24NoxcCGoDu_xctr0ZB-10" vertex="1">
-          <mxGeometry y="52" width="400" height="8" as="geometry" />
+          <mxGeometry y="52" width="335" height="8" as="geometry" />
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-13" value="+ ProcessDictoinary(Dictionary): NotesCaseInformationModel&#xa;+ TryParseCounty(Dictionary)&#xa;+ TryParseCourt(Dictionary)&#xa;+ TryParseDegree(Dictionary)&#xa;+ TryParseAddress(Dictionary)&#xa;+ TryParseDisposition(Dictionary)&#xa;+ TryParseOffense(Dictionary)&#xa;+ TryParseStatus(Dictionary)&#xa;+ TryParseStatute(Dictionary)&#xa;+ TryParsePlea(Dictionary)&#xa;+ TryParseCaseNotes(Dictionary)&#xa;+ TryParseArrestDate(Dictionary)&#xa;+ TryParseOffenseDate(Dictionary)&#xa;+ TryParsePleaDate(Dictionary)&#xa;+ TryParsePersonInformation(Dictionary)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="p24NoxcCGoDu_xctr0ZB-10" vertex="1">
-          <mxGeometry y="60" width="400" height="270" as="geometry" />
+          <mxGeometry y="60" width="335" height="270" as="geometry" />
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-34" style="endArrow=block;endSize=16;endFill=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" parent="1" source="p24NoxcCGoDu_xctr0ZB-15" target="p24NoxcCGoDu_xctr0ZB-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="180" />
+              <mxPoint x="135" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="p24NoxcCGoDu_xctr0ZB-15" value="SJVVendorModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="-110" y="40" width="200" height="98" as="geometry">
@@ -165,10 +170,10 @@
             <mxPoint x="245" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1jMQspRUwRalno7gAiup-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" source="p24NoxcCGoDu_xctr0ZB-1" target="p24NoxcCGoDu_xctr0ZB-38" edge="1">
+        <mxCell id="1jMQspRUwRalno7gAiup-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="p24NoxcCGoDu_xctr0ZB-1" target="p24NoxcCGoDu_xctr0ZB-38" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="110" y="650" as="sourcePoint" />
-            <mxPoint x="270" y="650" as="targetPoint" />
+            <mxPoint x="135" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qetJMM-uDtJzHeQR3UNS-1" value="(specific)VendorModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
