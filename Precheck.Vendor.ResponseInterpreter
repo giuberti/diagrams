@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T17:02:27.384Z" agent="5.0 (Windows)" etag="v5aRO8gF7e7KJrLGB8kL" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-27T17:03:37.137Z" agent="5.0 (Windows)" etag="HFJHmcWhzitUrC7LKv68" version="20.0.4" type="github" pages="3">
   <diagram name="Architecture" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1479" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -456,15 +456,15 @@
           <mxGeometry y="250" width="350" height="8" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-24" value="SJVVCEQBusiness" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="570" y="860" width="200" height="98" as="geometry">
+          <mxGeometry x="570" y="860" width="340" height="118" as="geometry">
             <mxRectangle x="70" y="220" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YtWq0OXwzc50kE9savnA-25" value="+ type: TypeVendor&#xa;+ pattern: Regex&#xa;+ keyLabels: string[]" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YtWq0OXwzc50kE9savnA-24">
-          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        <mxCell id="YtWq0OXwzc50kE9savnA-25" value="+ GetPublicNotes(CrimReviewModel[]): string&#xa;+ GetSentenceSingleCount(CrimReviewModel): string&#xa;+ GetSentenceMultipleCount(CrimReviewModel[]): string&#xa;+ GetOffenseSingleCount(CrimReviewModel): string" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YtWq0OXwzc50kE9savnA-24">
+          <mxGeometry y="26" width="340" height="84" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-26" value="" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" vertex="1" parent="YtWq0OXwzc50kE9savnA-24">
-          <mxGeometry y="90" width="200" height="8" as="geometry" />
+          <mxGeometry y="110" width="340" height="8" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-27" value="&lt;div&gt;«interface»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;ICEQBusiness&lt;/b&gt;&lt;/div&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-160" y="840" width="200" height="50" as="geometry" />
@@ -476,15 +476,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-29" value="(specific)CEQBusiness" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1050" width="200" height="98" as="geometry">
+          <mxGeometry x="570" y="1050" width="270" height="98" as="geometry">
             <mxRectangle x="70" y="220" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YtWq0OXwzc50kE9savnA-30" value="+ separator: string&#xa;+ type: TypeVendor&#xa;+ pattern: Regex&#xa;+ keyLabels: string[]" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YtWq0OXwzc50kE9savnA-29">
-          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        <mxCell id="YtWq0OXwzc50kE9savnA-30" value="+ GetPublicNotes(CrimReviewModel[]): string" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="YtWq0OXwzc50kE9savnA-29">
+          <mxGeometry y="26" width="270" height="64" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-31" value="" style="line;strokeWidth=1;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#6c8ebf;" vertex="1" parent="YtWq0OXwzc50kE9savnA-29">
-          <mxGeometry y="90" width="200" height="8" as="geometry" />
+          <mxGeometry y="90" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-32" style="endArrow=block;endSize=16;endFill=0;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;strokeColor=default;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YtWq0OXwzc50kE9savnA-29" target="YtWq0OXwzc50kE9savnA-22">
           <mxGeometry relative="1" as="geometry">
@@ -497,7 +497,7 @@
             <mxPoint x="680" y="1060" as="sourcePoint" />
             <mxPoint x="520" y="990" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="670" y="990" />
+              <mxPoint x="740" y="990" />
             </Array>
           </mxGeometry>
         </mxCell>
