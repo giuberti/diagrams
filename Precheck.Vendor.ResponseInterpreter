@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-27T17:03:58.371Z" agent="5.0 (Windows)" etag="HV-vOU69LDvIHDaYWwmz" version="20.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-27T17:04:19.396Z" agent="5.0 (Windows)" etag="uze-uhiOgaTYBtteSoeZ" version="20.0.4" type="github" pages="3">
   <diagram name="Architecture" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1479" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -456,7 +456,7 @@
           <mxGeometry y="250" width="350" height="8" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-24" value="SJVVCEQBusiness" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="570" y="860" width="340" height="118" as="geometry">
+          <mxGeometry x="570" y="853" width="340" height="118" as="geometry">
             <mxRectangle x="70" y="220" width="70" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
