@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T15:03:22.584Z" agent="5.0 (Windows)" etag="vLRE02Ew8waLlq5la7IB" version="20.2.7" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-09-15T16:34:43.257Z" agent="5.0 (Windows)" etag="MkSgBkh0FYD3EgZrEqJX" version="20.2.7" type="github" pages="5">
   <diagram name="Architecture" id="5f0bae14-7c28-e335-631c-24af17079c00">
-    <mxGraphModel dx="1763" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,7 +196,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ExPmOZw5oA2eSqsOqsrl" name="Class Diagram">
-    <mxGraphModel dx="1632" dy="1820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="2512" dy="2180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -630,7 +630,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CeTYcNyRMsUpmxoMObT5" name="Sequence Diagram">
-    <mxGraphModel dx="1027" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="1662" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -694,7 +694,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3CIG_Ug8ZAPiCb-NkJsF" name="Página-4">
-    <mxGraphModel dx="782" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+    <mxGraphModel dx="2374" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -722,8 +722,8 @@
         <mxCell id="3X9ohFjsGAuE-mrPJEvL-4" value="CEQBusiness" style="swimlane;" parent="3X9ohFjsGAuE-mrPJEvL-1" vertex="1">
           <mxGeometry x="1371" width="337" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="3X9ohFjsGAuE-mrPJEvL-31" value="&lt;div&gt;GetDegreeSingleCount()&lt;/div&gt;&lt;div&gt;GetDegreeMultipleCount()&lt;/div&gt;&lt;div&gt;GetFines()&lt;/div&gt;&lt;div&gt;GetSSNOnRecord()&lt;/div&gt;&lt;div&gt;GetPublicNotes()&lt;/div&gt;&lt;div&gt;...&lt;br&gt;&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="3X9ohFjsGAuE-mrPJEvL-4" vertex="1">
-          <mxGeometry x="64.25" y="735" width="208.5" height="110" as="geometry" />
+        <mxCell id="3X9ohFjsGAuE-mrPJEvL-31" value="&lt;div&gt;GetDegreeSingleCount()&lt;/div&gt;&lt;div&gt;GetDegreeMultipleCount()&lt;/div&gt;&lt;div&gt;GetFines()&lt;/div&gt;&lt;div&gt;GetSSNOnRecord()&lt;br&gt;...&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="3X9ohFjsGAuE-mrPJEvL-4" vertex="1">
+          <mxGeometry x="64.25" y="735" width="208.5" height="95" as="geometry" />
         </mxCell>
         <mxCell id="3X9ohFjsGAuE-mrPJEvL-5" value="ResponseListener" style="swimlane;" parent="3X9ohFjsGAuE-mrPJEvL-1" vertex="1">
           <mxGeometry x="23" width="337" height="990" as="geometry" />
@@ -737,8 +737,8 @@
         <mxCell id="3X9ohFjsGAuE-mrPJEvL-25" value="&lt;div&gt;Identify Crims returned and &lt;br&gt;&lt;/div&gt;&lt;div&gt;decide to call for Single Count&lt;/div&gt;&lt;div&gt;or Multiple Count methods&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="3X9ohFjsGAuE-mrPJEvL-5" vertex="1">
           <mxGeometry x="64.25" y="612" width="208.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3X9ohFjsGAuE-mrPJEvL-30" value="&lt;div&gt;Update DataRow with automated &lt;br&gt;&lt;/div&gt;&lt;div&gt;data for Sentence, Degree, &lt;br&gt;&lt;/div&gt;&lt;div&gt;Fines, Public Notes, etc...&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="3X9ohFjsGAuE-mrPJEvL-5" vertex="1">
-          <mxGeometry x="64.25" y="879" width="208.5" height="70" as="geometry" />
+        <mxCell id="3X9ohFjsGAuE-mrPJEvL-30" value="&lt;div&gt;Update DataRow with automated &lt;br&gt;&lt;/div&gt;&lt;div&gt;data for Sentence, Degree, &lt;br&gt;&lt;/div&gt;&lt;div&gt;Fines, etc...&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;" parent="3X9ohFjsGAuE-mrPJEvL-5" vertex="1">
+          <mxGeometry x="64.25" y="860" width="208.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3X9ohFjsGAuE-mrPJEvL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3X9ohFjsGAuE-mrPJEvL-1" source="3X9ohFjsGAuE-mrPJEvL-7" target="3X9ohFjsGAuE-mrPJEvL-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
