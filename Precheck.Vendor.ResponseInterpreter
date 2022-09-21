@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T13:18:54.624Z" agent="5.0 (Windows)" etag="DcQmWcBxkiy6Qo4QSap6" version="20.3.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-09-21T10:24:57.329Z" agent="5.0 (Windows)" etag="KTWfc0TAY-nrvrjHWng9" version="20.3.3" type="github" pages="8">
   <diagram name="Architecture" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1662" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -575,8 +575,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YtWq0OXwzc50kE9savnA-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ResponseProcessingCreator&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;+ FactoryMethod(TypeVendor): IResponseInterpreter&lt;br&gt;&lt;div&gt;+ IdentifyVendor(string): TypeVendor&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="218" y="644" width="300" height="100" as="geometry" />
+        <mxCell id="YtWq0OXwzc50kE9savnA-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ResponseProcessingCreator&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;+ FactoryMethod(TypeVendor): IResponseInterpreter&lt;br&gt;&lt;div&gt;+ IdentifyVendor(ResponseProcessorConfig, string): TypeVendor&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="218" y="644" width="372" height="100" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-46" style="endArrow=open;endSize=12;dashed=1;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;align=center;strokeColor=default;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YtWq0OXwzc50kE9savnA-18" target="YtWq0OXwzc50kE9savnA-21" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -589,7 +589,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-47" value="&lt;div&gt;«interface»&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;IResponseInterpreter&lt;/b&gt;&lt;/div&gt;" style="html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="266" y="520" width="200" height="50" as="geometry" />
+          <mxGeometry x="300" y="510" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-48" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="YtWq0OXwzc50kE9savnA-45" target="YtWq0OXwzc50kE9savnA-47" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -658,10 +658,10 @@
         <mxCell id="YtWq0OXwzc50kE9savnA-61" value="Vendors Configurations for Parser" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="YtWq0OXwzc50kE9savnA-66" vertex="1">
           <mxGeometry y="90" width="487.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YtWq0OXwzc50kE9savnA-62" value="Models" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="YtWq0OXwzc50kE9savnA-66" vertex="1">
+        <mxCell id="YtWq0OXwzc50kE9savnA-62" value="General Models" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="YtWq0OXwzc50kE9savnA-66" vertex="1">
           <mxGeometry y="60" width="487.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YtWq0OXwzc50kE9savnA-63" value="Enums" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="YtWq0OXwzc50kE9savnA-66" vertex="1">
+        <mxCell id="YtWq0OXwzc50kE9savnA-63" value="General Enums" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" parent="YtWq0OXwzc50kE9savnA-66" vertex="1">
           <mxGeometry y="30" width="487.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YtWq0OXwzc50kE9savnA-64" value="Parser for Special Instructions (NotesCaseInformation and AdditionalInformation)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" parent="YtWq0OXwzc50kE9savnA-66" vertex="1">
