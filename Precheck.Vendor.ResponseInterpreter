@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T09:30:29.095Z" agent="5.0 (Windows)" etag="a4legQfmIM4aqYmgiFUS" version="20.5.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2022-11-22T09:46:53.225Z" agent="5.0 (Windows)" etag="lAPNcf-pD2GIuDIuyr36" version="20.5.3" type="github" pages="9">
   <diagram name="Architecture" id="5f0bae14-7c28-e335-631c-24af17079c00">
     <mxGraphModel dx="1662" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1140,7 +1140,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="CEQ Flowchart" id="t80u_XOVhhOSi1Z_zAGB">
-    <mxGraphModel dx="3690" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1961" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Y9j16Pjtkfd4PtVN2LDg-0" />
         <mxCell id="Y9j16Pjtkfd4PtVN2LDg-1" parent="Y9j16Pjtkfd4PtVN2LDg-0" />
@@ -1195,10 +1195,10 @@
         <mxCell id="Y9j16Pjtkfd4PtVN2LDg-23" value="Parse content from SpecialInstructions field" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;strokeColor=#000000;fillColor=#D4E1F5;" parent="Y9j16Pjtkfd4PtVN2LDg-1" vertex="1">
           <mxGeometry x="286" y="500" width="320" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UJ0QkNbmhUn_oaiusviw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="Y9j16Pjtkfd4PtVN2LDg-1" source="UJ0QkNbmhUn_oaiusviw-2" target="UJ0QkNbmhUn_oaiusviw-3" edge="1">
+        <mxCell id="UJ0QkNbmhUn_oaiusviw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="Y9j16Pjtkfd4PtVN2LDg-1" source="UJ0QkNbmhUn_oaiusviw-2" target="UJ0QkNbmhUn_oaiusviw-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UJ0QkNbmhUn_oaiusviw-2" value="Assemble and Fill the Public Notes field" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;strokeColor=#000000;fillColor=#D4E1F5;" parent="Y9j16Pjtkfd4PtVN2LDg-1" vertex="1">
+        <mxCell id="UJ0QkNbmhUn_oaiusviw-2" value="Assemble and Fill the Public Notes, Sentence, Fines, Offense and Degree fields" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=0;strokeWidth=2;strokeColor=#000000;fillColor=#D4E1F5;" parent="Y9j16Pjtkfd4PtVN2LDg-1" vertex="1">
           <mxGeometry x="286" y="680" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UJ0QkNbmhUn_oaiusviw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=0.188;entryDx=0;entryDy=0;entryPerimeter=0;" parent="Y9j16Pjtkfd4PtVN2LDg-1" source="UJ0QkNbmhUn_oaiusviw-3" target="TyudFqMalpLHy4NomV0y-2" edge="1">
