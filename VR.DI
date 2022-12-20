@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T16:02:38.752Z" agent="5.0 (Windows)" etag="uThSxxStLDjUTC5d1skx" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-20T16:15:25.551Z" agent="5.0 (Windows)" etag="utGMnKfSsogtW1HboP2L" version="20.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1662" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -92,6 +92,18 @@
             <mxPoint x="535" y="400" as="targetPoint" />
             <mxPoint x="1088" y="400" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-24" value=":GuestTreatService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="170" width="135" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ZVN1tk2wpnTAHpi9IHXG-24">
+          <mxGeometry x="63" y="80" width="10" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-26" value="DI.Service.WAPE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1302" y="120" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-27" value="AllocateTreatToUserByConiqId" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="560" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
