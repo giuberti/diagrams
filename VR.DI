@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T16:28:59.166Z" agent="5.0 (Windows)" etag="7e0KHl5qQfgoQSdHXVTi" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T16:36:14.935Z" agent="5.0 (Windows)" etag="Q_DPyuQH2hGCJQF1wouK" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1969" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-24" value=":GuestTreatService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="170" width="135" height="750" as="geometry" />
+          <mxGeometry x="1250" y="170" width="135" height="930" as="geometry" />
         </mxCell>
         <mxCell id="bsYGXkPwGbI0dp6ZbGc6-17" value="AllocateGuestTreatToCustomer" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="bsYGXkPwGbI0dp6ZbGc6-16" parent="ZVN1tk2wpnTAHpi9IHXG-24">
           <mxGeometry relative="1" as="geometry">
@@ -59,6 +59,15 @@
         </mxCell>
         <mxCell id="bsYGXkPwGbI0dp6ZbGc6-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZVN1tk2wpnTAHpi9IHXG-24">
           <mxGeometry x="82" y="605" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="bsYGXkPwGbI0dp6ZbGc6-67" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="ZVN1tk2wpnTAHpi9IHXG-24">
+          <mxGeometry x="62" y="840" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bsYGXkPwGbI0dp6ZbGc6-68" value="GetGuestTreat" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.9;exitY=0.183;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="ZVN1tk2wpnTAHpi9IHXG-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-126.00000000000045" y="839.9999999999999" as="sourcePoint" />
+            <mxPoint x="64" y="842" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="1312.5" y="290" width="10" height="630" as="geometry" />
@@ -174,7 +183,7 @@
           <mxGeometry x="1040" y="170" width="160" height="990" as="geometry" />
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;strokeColor=#3333FF;fillColor=#3333FF;" parent="ZVN1tk2wpnTAHpi9IHXG-19" vertex="1">
-          <mxGeometry x="75" y="820" width="10" height="69" as="geometry" />
+          <mxGeometry x="75" y="820" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-8" value="PUT&#xa;/api/v1/customer/{custumerGuid}/allocateByConiqId/{treatConiqIdEncoded}" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1" target="ZVN1tk2wpnTAHpi9IHXG-2">
           <mxGeometry relative="1" as="geometry">
@@ -182,10 +191,10 @@
             <mxPoint x="922" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-22" value="IHttpActionResult" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#3333FF;strokeColor=#3333FF;" parent="1" source="ZVN1tk2wpnTAHpi9IHXG-20" edge="1" target="3nuBFxr9cyL0pnOWT2aG-6">
+        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-22" value="IHttpActionResult" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#3333FF;strokeColor=#3333FF;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="1024.266" as="targetPoint" />
-            <mxPoint x="1088" y="695" as="sourcePoint" />
+            <mxPoint x="536" y="1092.266" as="targetPoint" />
+            <mxPoint x="1115" y="1092.266" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-26" value="DI.Service.WAPE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
