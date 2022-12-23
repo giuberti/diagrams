@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-12-23T14:54:51.568Z" agent="5.0 (Windows)" etag="a_dzKMahQfVbnuXzSaIh" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-23T16:41:17.932Z" agent="5.0 (Windows)" etag="qZonOqieLVeSJzM6Niw3" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="65788">
     <mxGraphModel dx="1674" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-24" value=":GuestTreatService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="170" width="202" height="930" as="geometry" />
+          <mxGeometry x="1250" y="170" width="140" height="930" as="geometry" />
         </mxCell>
         <mxCell id="bsYGXkPwGbI0dp6ZbGc6-17" value="AllocateGuestTreatToCustomer" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="ZVN1tk2wpnTAHpi9IHXG-24" target="bsYGXkPwGbI0dp6ZbGc6-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -183,16 +183,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-19" value=":CustomerOfferController" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="170" width="260" height="990" as="geometry" />
+          <mxGeometry x="1040" y="170" width="160" height="990" as="geometry" />
         </mxCell>
         <mxCell id="bsYGXkPwGbI0dp6ZbGc6-69" value="GuestTreat" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.495;exitY=0.935;exitDx=0;exitDy=0;exitPerimeter=0;" parent="ZVN1tk2wpnTAHpi9IHXG-19" target="ZVN1tk2wpnTAHpi9IHXG-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="880" as="targetPoint" />
             <mxPoint x="276.8250000000003" y="879.5500000000002" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ICyFFxYi5yse0GI92bpT-1" value="GetGuestTreat is returning so its not calling CreateTreat.." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#FF3333;" vertex="1" parent="ZVN1tk2wpnTAHpi9IHXG-19">
-          <mxGeometry x="120" y="370" width="170" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-8" value="PUT&#xa;/api/v1/customer/{custumerGuid}/allocateByConiqId/{treatConiqId}" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="ZVN1tk2wpnTAHpi9IHXG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -207,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZVN1tk2wpnTAHpi9IHXG-26" value="DI.Service.WAPE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1252.5" y="120" width="307.5" height="40" as="geometry" />
+          <mxGeometry x="1252.5" y="120" width="597.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bsYGXkPwGbI0dp6ZbGc6-1" value="DI.Repository" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1990" y="120" width="180" height="40" as="geometry" />
@@ -359,10 +356,10 @@
             <mxPoint x="2087" y="900" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bsYGXkPwGbI0dp6ZbGc6-70" value="GuestTreat" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bsYGXkPwGbI0dp6ZbGc6-71" edge="1">
+        <mxCell id="bsYGXkPwGbI0dp6ZbGc6-70" value="GuestTreat" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;shadow=0;strokeWidth=1;exitX=0.5;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1322.5" y="1043.02" as="targetPoint" />
-            <mxPoint x="2371" y="1043.02" as="sourcePoint" />
+            <mxPoint x="1322.5" y="1044.02" as="targetPoint" />
+            <mxPoint x="2390" y="1044.032" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bsYGXkPwGbI0dp6ZbGc6-72" value="GetGuestTreat" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.483;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="bsYGXkPwGbI0dp6ZbGc6-56" edge="1">
@@ -370,6 +367,9 @@
             <mxPoint x="1323.5" y="1017" as="sourcePoint" />
             <mxPoint x="2371" y="1017" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ICyFFxYi5yse0GI92bpT-1" value="It will call only if GetGuestTreat does not return anything" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;fillColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="1152.5" y="560" width="170" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
