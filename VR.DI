@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-27T10:42:52.706Z" agent="5.0 (Windows)" etag="k3LGW6f0CKs48574bwlK" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-27T10:43:08.621Z" agent="5.0 (Windows)" etag="4VCmc0F0Xe-Aidelhxum" version="20.7.4" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="65788">
     <mxGraphModel dx="1762" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
             <mxPoint x="1630" y="387" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-21" value="GET&#xa;/api/v1/customer/{custumerGuid}/ByConiqId/{treatConiqId}" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fillColor=#3333FF;strokeColor=#3333FF;" parent="1" target="ZVN1tk2wpnTAHpi9IHXG-20" edge="1">
+        <mxCell id="ZVN1tk2wpnTAHpi9IHXG-21" value="GET&#xa;/api/v1/customer/{custumerGuid}/coniqId/{treatConiqId}" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;fillColor=#3333FF;strokeColor=#3333FF;" parent="1" target="ZVN1tk2wpnTAHpi9IHXG-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="530" y="993" as="sourcePoint" />
             <mxPoint x="1110" y="993" as="targetPoint" />
