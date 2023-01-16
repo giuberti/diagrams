@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-16T14:37:22.542Z" agent="5.0 (Windows)" etag="cEWyEdP_xdAtJMfYsHWQ" version="20.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-16T14:40:48.562Z" agent="5.0 (Windows)" etag="mGOO7YzTmJJBg39nL98S" version="20.8.5" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="65788">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -483,16 +483,22 @@
         <mxCell id="2uoe51GskL9y-OspDPvI-18" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="2uoe51GskL9y-OspDPvI-17">
           <mxGeometry x="63" y="90" width="10" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="LXImw0AqbAPW8ov60K1x-3" value="return token if user has been challenged" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="LXImw0AqbAPW8ov60K1x-9" value="submit to google recaptcha" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="2uoe51GskL9y-OspDPvI-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-244" y="460.0000000000001" as="sourcePoint" />
+            <mxPoint x="463" y="460.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LXImw0AqbAPW8ov60K1x-3" value="callback function onHumanSubmit" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="410" as="targetPoint" />
             <mxPoint x="848" y="408.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LXImw0AqbAPW8ov60K1x-4" value="SendRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2uoe51GskL9y-OspDPvI-2">
+        <mxCell id="LXImw0AqbAPW8ov60K1x-4" value="SendRequest" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.52;exitY=0.423;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="140" y="549" as="sourcePoint" />
-            <mxPoint x="400" y="550" as="targetPoint" />
+            <mxPoint x="349.96000000000004" y="559.77" as="sourcePoint" />
+            <mxPoint x="530" y="560.9000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2uoe51GskL9y-OspDPvI-6" value="submit to google recaptcha" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2uoe51GskL9y-OspDPvI-8" target="2uoe51GskL9y-OspDPvI-18">
@@ -506,6 +512,12 @@
         </mxCell>
         <mxCell id="LXImw0AqbAPW8ov60K1x-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="LXImw0AqbAPW8ov60K1x-6">
           <mxGeometry x="81" y="330" width="10" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LXImw0AqbAPW8ov60K1x-8" value="RegisterSubmit" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.1;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.2;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2uoe51GskL9y-OspDPvI-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160.00000000000003" y="540" as="sourcePoint" />
+            <mxPoint x="340.03999999999996" y="541.1300000000001" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
