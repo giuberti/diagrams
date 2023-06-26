@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-26T17:00:18.650Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="2IpiHqwe9HZ3Z0jA_4bY" version="21.3.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-26T17:02:36.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="h1-odKYP97rxzOg9F7sL" version="21.3.8" type="github" pages="4">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
         <mxCell id="5N2PA1N7N8fe88zdQoq2-44" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="5N2PA1N7N8fe88zdQoq2-36">
           <mxGeometry x="35" y="410" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="5N2PA1N7N8fe88zdQoq2-38" value="Plan Toll Backend API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
+        <mxCell id="5N2PA1N7N8fe88zdQoq2-38" value="Plan Tool Backend API" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="215" width="175" height="125" as="geometry" />
         </mxCell>
         <mxCell id="5N2PA1N7N8fe88zdQoq2-39" value="Plan API Jobs" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="1">
@@ -389,13 +389,18 @@
         <mxCell id="5N2PA1N7N8fe88zdQoq2-40" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="50" y="265" width="135" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="5N2PA1N7N8fe88zdQoq2-62" value="/api/v1/storerooms" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;" edge="1" parent="1" source="5N2PA1N7N8fe88zdQoq2-41" target="5N2PA1N7N8fe88zdQoq2-33">
+          <mxGeometry x="0.1875" y="30" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5N2PA1N7N8fe88zdQoq2-41" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="55" y="115" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="5N2PA1N7N8fe88zdQoq2-42" value="Amsterdam, NE&lt;br&gt;Dynamic IP" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_on_premise;strokeColor=#5A6C86;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="20" width="250" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="5N2PA1N7N8fe88zdQoq2-48" value="Plan Toll FrontEnd" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="5N2PA1N7N8fe88zdQoq2-42">
+        <mxCell id="5N2PA1N7N8fe88zdQoq2-48" value="Plan Tool FrontEnd" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;" vertex="1" parent="5N2PA1N7N8fe88zdQoq2-42">
           <mxGeometry x="20" y="370" width="175" height="125" as="geometry" />
         </mxCell>
         <mxCell id="5N2PA1N7N8fe88zdQoq2-49" value="" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="5N2PA1N7N8fe88zdQoq2-42">
