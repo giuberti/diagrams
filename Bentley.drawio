@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T17:53:42.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="dQNTXXG28VL_9y7AlrwR" version="21.5.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-06-28T14:51:41.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="9J7xL8eN-8nxR7LJmv-z" version="21.5.1" type="github" pages="6">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -9,6 +9,28 @@
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-3" vertex="1">
           <mxGeometry x="45" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-13" value="check on storerooms&lt;br&gt; for spare parts" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="0.1875" y="92" relative="1" as="geometry">
+            <mxPoint x="55.000000000000114" y="349.9999999999999" as="sourcePoint" />
+            <mxPoint x="59.620000000000005" y="387.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="109.62" y="349.9" />
+              <mxPoint x="109.62" y="387.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-11" value="add requests in inventory" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="7baba1c4bc27f4b0-3">
+          <mxGeometry x="0.1875" y="72" relative="1" as="geometry">
+            <mxPoint x="56.000000000000114" y="409.9999999999999" as="sourcePoint" />
+            <mxPoint x="60.620000000000005" y="447.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110.62" y="409.9" />
+              <mxPoint x="110.62" y="447.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-2" value="Planning system" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="240" y="80" width="100" height="560" as="geometry" />
@@ -49,9 +71,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-8" value="reserve spareparts" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="7baba1c4bc27f4b0-2" source="L3LUOp6Q61hQ2QbDwkMk-3" target="L3LUOp6Q61hQ2QbDwkMk-6">
+        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-8" value="place order for spareparts" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="7baba1c4bc27f4b0-2" source="L3LUOp6Q61hQ2QbDwkMk-3" target="L3LUOp6Q61hQ2QbDwkMk-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="127" y="295" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L3LUOp6Q61hQ2QbDwkMk-9" value="ACK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="7baba1c4bc27f4b0-2" source="7baba1c4bc27f4b0-3">
@@ -63,16 +86,13 @@
         <mxCell id="L3LUOp6Q61hQ2QbDwkMk-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-2">
           <mxGeometry x="272" y="295" width="10" height="245" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-4" value="ERP Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="760" y="80" width="100" height="580" as="geometry" />
-        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-11" value="click new Job" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" target="7baba1c4bc27f4b0-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="155" y="180" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-14" value="consult spareparts" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
+        <mxCell id="7baba1c4bc27f4b0-14" value="consult inventory" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-10" target="7baba1c4bc27f4b0-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="200" as="sourcePoint" />
           </mxGeometry>
@@ -83,27 +103,13 @@
         <mxCell id="7baba1c4bc27f4b0-42" value="System is composed by API and Workflow service" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="450" y="22" width="140" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-43" value="Note" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="760" y="30" width="100" height="35" as="geometry" />
-        </mxCell>
         <mxCell id="r3WiBmPXjDNipP7hlPcP-2" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" vertex="1" parent="1">
           <mxGeometry x="142" y="80" width="20" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-1" value="return spareparts" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="7baba1c4bc27f4b0-3">
+        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-1" value="return inventory" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="7baba1c4bc27f4b0-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="295" y="240" as="targetPoint" />
             <mxPoint x="415" y="240" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-11" value="check for inventory" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.1875" y="72" relative="1" as="geometry">
-            <mxPoint x="523.0000000000001" y="431.9999999999999" as="sourcePoint" />
-            <mxPoint x="527.62" y="469.91999999999996" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="577.62" y="431.9" />
-              <mxPoint x="577.62" y="469.9" />
-            </Array>
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="L3LUOp6Q61hQ2QbDwkMk-12" value="reserve parts avaiable and/or&lt;br&gt; place new order for parts" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
@@ -113,17 +119,6 @@
             <Array as="points">
               <mxPoint x="577.62" y="553.9" />
               <mxPoint x="577.62" y="591.9" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="L3LUOp6Q61hQ2QbDwkMk-13" value="check on storerooms&lt;br&gt; for avaiable parts" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.1875" y="92" relative="1" as="geometry">
-            <mxPoint x="523.0000000000001" y="491.9999999999999" as="sourcePoint" />
-            <mxPoint x="527.62" y="529.92" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="577.62" y="491.9" />
-              <mxPoint x="577.62" y="529.9" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -586,6 +581,139 @@
         <mxCell id="eW5gLXM0kAwONvMqNnM3-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="eW5gLXM0kAwONvMqNnM3-27" vertex="1">
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="dD6TIkGGo5pUNKm9H303" name="Page-6">
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T8V9_wcOxV-lisegelly-1" value="ERP System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="467" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="T8V9_wcOxV-lisegelly-1">
+          <mxGeometry x="45" y="120" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-3" value="check on storerooms&lt;br&gt; for spare parts" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="T8V9_wcOxV-lisegelly-1">
+          <mxGeometry x="0.1875" y="92" relative="1" as="geometry">
+            <mxPoint x="55.000000000000114" y="349.9999999999999" as="sourcePoint" />
+            <mxPoint x="59.620000000000005" y="387.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="109.62" y="349.9" />
+              <mxPoint x="109.62" y="387.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-4" value="add requests in inventory" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="T8V9_wcOxV-lisegelly-1">
+          <mxGeometry x="0.1875" y="72" relative="1" as="geometry">
+            <mxPoint x="56.000000000000114" y="409.9999999999999" as="sourcePoint" />
+            <mxPoint x="60.620000000000005" y="447.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110.62" y="409.9" />
+              <mxPoint x="110.62" y="447.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-5" value="Planning system" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="100" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="T8V9_wcOxV-lisegelly-5">
+          <mxGeometry x="45" y="100" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-7" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="T8V9_wcOxV-lisegelly-5" target="T8V9_wcOxV-lisegelly-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-75" y="240" as="targetPoint" />
+            <mxPoint x="45" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-8" value="prepare GUI" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="T8V9_wcOxV-lisegelly-5">
+          <mxGeometry x="0.0472" y="30" relative="1" as="geometry">
+            <mxPoint x="55.000000000000114" y="179.9999999999999" as="sourcePoint" />
+            <mxPoint x="59.620000000000005" y="217.91999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="109.62" y="179.89999999999998" />
+              <mxPoint x="109.62" y="217.89999999999998" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="T8V9_wcOxV-lisegelly-5">
+          <mxGeometry x="42" y="275" width="10" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-10" value="ACK with &lt;br&gt;friendly message" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="T8V9_wcOxV-lisegelly-5">
+          <mxGeometry x="0.0075" relative="1" as="geometry">
+            <mxPoint x="-91" y="355" as="targetPoint" />
+            <mxPoint x="42" y="355" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-11" value="Submit Job" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=horizontal;" edge="1" parent="T8V9_wcOxV-lisegelly-5" target="T8V9_wcOxV-lisegelly-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-88" y="275" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-12" value="place order for spareparts" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="T8V9_wcOxV-lisegelly-5" source="T8V9_wcOxV-lisegelly-9" target="T8V9_wcOxV-lisegelly-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="127" y="295" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-13" value="ACK" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="T8V9_wcOxV-lisegelly-5" source="T8V9_wcOxV-lisegelly-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="52" y="335" as="targetPoint" />
+            <mxPoint x="207" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="T8V9_wcOxV-lisegelly-5">
+          <mxGeometry x="272" y="295" width="10" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-15" value="click new Job" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="T8V9_wcOxV-lisegelly-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="180" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-16" value="/" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="T8V9_wcOxV-lisegelly-6" target="T8V9_wcOxV-lisegelly-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-19" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=50;" vertex="1" parent="1">
+          <mxGeometry x="142" y="80" width="20" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-20" value="return inventory" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;" edge="1" parent="1" source="T8V9_wcOxV-lisegelly-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295" y="240" as="targetPoint" />
+            <mxPoint x="415" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-21" value="reserve parts avaiable and/or&lt;br&gt; place new order for parts" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.1931" y="92" relative="1" as="geometry">
+            <mxPoint x="523.0000000000001" y="553.9999999999999" as="sourcePoint" />
+            <mxPoint x="527.62" y="591.92" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="577.62" y="553.9" />
+              <mxPoint x="577.62" y="591.9" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-22" value="update job with estimated &lt;br&gt;arrival date for spareparts" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516.5" y="620" as="sourcePoint" />
+            <mxPoint x="289.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T8V9_wcOxV-lisegelly-23" value="friendly &lt;br&gt;status update" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="287" y="640" as="sourcePoint" />
+            <mxPoint x="150" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
